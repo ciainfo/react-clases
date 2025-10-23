@@ -8,8 +8,7 @@ const Inicio = () => {
   const agregarAlCarrito = (producto) => {
     setCarrito([...carrito, producto]);
   };
-  // Usamos filter() para crear un nuevo array que excluye el elemento
-  // con el índice dado.
+  
   const eliminarDelCarrito = (indiceAEliminar) => {
     setCarrito(carrito.filter((_, indice) => indice !== indiceAEliminar));
   };
@@ -18,11 +17,10 @@ const Inicio = () => {
       <Productos agregarProducto={agregarAlCarrito} />
       <hr/>
       <Carrito
-        productosEnCarrito = {carrito}
-        productosEliminados = {eliminarDelCarrito}
+        productosEnCarrito={carrito}
+        productosEliminados={eliminarDelCarrito}
       />
     </>
   );
 };
-
 export default Inicio;

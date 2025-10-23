@@ -8,7 +8,7 @@ const Header = ({contadorEnCarrito = 5}) => {
     <header className={styles.header}>
       {/* Seccion Izquierda: Logo */}
       <div className={styles.logo}>
-        ONEPIECE
+        Venta Mayorista
       </div>
       {/* Seccion Central: Componente NavBar */}
       <div className={styles.navbarContainer}>

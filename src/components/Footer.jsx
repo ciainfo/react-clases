@@ -17,8 +17,9 @@ const Footer = () => {
       </ul>
       {/* Seccion de Copyright */}
       <p className={styles.copyright}>
-        © {anioActual} One Piece. Todos los derechos reservados.
+        © {anioActual}    Todos los derechos reservados.      Desarrolado por: @marcelo.barahona
       </p>
+     
     </footer>
   );
 }

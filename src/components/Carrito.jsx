@@ -1,4 +1,4 @@
-
+import Inicio from "../pages/Inicio";
 const Carrito = () => ({productosEnCarrito, productosEliminados}) => {
   
   return (

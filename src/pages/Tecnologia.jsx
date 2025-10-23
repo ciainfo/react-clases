@@ -1,6 +1,6 @@
 const Tecnologia = () => {
   return(
-    <h1>Tecnologia</h1>
+    <h1>Tecnología</h1>
   );
 }
 
