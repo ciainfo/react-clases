@@ -7,7 +7,6 @@ import ProductoDetalle from "./pages/ProductoDetalle";
 import Footer from "./components/Footer";
 import Tecnologia from "./pages/Tecnologia";
 
-
 function App() {
  
   // Renderizado y Estructura
@@ -15,13 +14,11 @@ function App() {
   return (
     <>
       <Header />
-      <Carrito />
       <Routes>
-        <Route path="/pages/Inicio" element={<Inicio />} />
+        <Route path="/pages/inicio" element={<Inicio />} />
         <Route path="/pages/vestimenta" element={<Vestimenta />} />
         <Route path="/pages/tecnologia" element={<Tecnologia />} />
         <Route path="/productos/:id" element={<ProductoDetalle />} />
-        
       </Routes>
       <Footer />
     </>

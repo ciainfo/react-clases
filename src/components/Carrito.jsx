@@ -1,5 +1,4 @@
-import Inicio from "../pages/Inicio";
-const Carrito = () => ({productosEnCarrito, productosEliminados}) => {
+const Carrito = ({productosEnCarrito, productosEliminados}) => {
   
   return (
     <div>
@@ -14,5 +13,5 @@ const Carrito = () => ({productosEnCarrito, productosEliminados}) => {
     </div>
   );
 };
-
 export default Carrito;
+

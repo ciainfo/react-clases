@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 const Productos = ({agregarProducto}) => {
@@ -10,9 +11,9 @@ const Productos = ({agregarProducto}) => {
 
   useEffect(() => {
     fetch(URL)
-      .then((respuesta) => respuesta.json())
-      .then((datos) => setProductos(datos))
-      .catch((error) => setError('Error al cargar productos'))
+      .then(respuesta => respuesta.json())
+      .then(datos => setProductos(datos))
+      .catch(error => setError('Error al cargar productos'))
       .finally(() => setCargando(false))
   },[]);
 

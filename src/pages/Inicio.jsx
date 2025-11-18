@@ -16,7 +16,7 @@ const Inicio = () => {
     <>
       <Productos agregarProducto={agregarAlCarrito} />
       <hr/>
-      <Carrito
+      <Carrito      
         productosEnCarrito={carrito}
         productosEliminados={eliminarDelCarrito}
       />
